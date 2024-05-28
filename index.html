@@ -15,19 +15,32 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="container-fluid navbar-custom fixed-top">
-    <!-- contenitore header -->
-        <div class="row align-items-center">
-            <!-- Logo e titolo -->
-            <div class="col-12 col-md-4 d-flex ">
-                <a class="navbar-brand d-flex " href="#">
-                    <img src="./img/logo.svg" alt="Logo Boolean">
-                </a>
+    <header class="bg-warning container-fluid navbar-custom fixed-top">
+        <!-- contenitore header -->
+            <div class="row align-items-center">
+                <!-- Logo -->
+                <div class="  col-12 col-md-4 d-flex align-items-center">
+                    <a class=" navbar-brand d-flex align-items-center" href="#">
+                        <img class="bg-secondary" src="./img/logo.svg" alt="Logo Boolean">
+                    </a>
+                </div>
+            
+                <!-- Barra di ricerca -->
+                <div class="col-12 col-md-4">
+                    <form class="form-inline justify-content-center">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </div>
+                    </form>
+                </div>
+                    <!-- Link di Navigazione -->
+                <div class="col-12 col-md-4 d-flex justify-content-end">
+                    <a class="nav-link" href="#">Link 1</a>
+                    <a class="nav-link" href="#">Link 2</a>
+                    <a class="nav-link" href="#">Link 3</a>
+                    <a class="nav-link" href="#">Link 4</a>
+                </div>
             </div>
-        </div>
-        <!-- Barra di ricerca -->
-        
-     
     </header>
     
 </body>
