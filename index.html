@@ -24,7 +24,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <!-- logo principale desktop LG-->
                     <img class="bg-primary d-none d-lg-inline logo" src="./img/logo.svg" alt="Logo Boolean">
                 <!--logo principale Tablet md / mobile xs  -->
-                    <img class="bg-secondary d-lg-none logo" src="./img/mobile-logo.png" alt="Logo Boolean">
+                    <img class="bg-secondary d-lg-none   logo" src="./img/mobile-logo.png" alt="Logo Boolean">
                 </a>
             </div>
             
@@ -36,11 +36,12 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             </div>
             
             <!-- Link di Navigazione -->
-            <div class="col-auto d-none d-lg-flex">
-                <a class="nav-link d-none d-md-inline" href="#">Link 1</a>
-                <a class="nav-link d-none d-md-inline" href="#">Link 2</a>
-                <a class="nav-link d-none d-md-inline" href="#">Link 3</a>
-                <!-- link unico visibile su tablet e mobile -->
+            <!-- inserito d-none e d-lg per visibilità solo il lg desktop -->
+            <div class="col-auto d-flex">
+                <a class="nav-link d-none d-lg-inline" href="#">Link 1</a>
+                <a class="nav-link d-none d-lg-inline" href="#">Link 2</a>
+                <a class="nav-link d-none d-lg-inline" href="#">Link 3</a>
+                <!-- inserito link unico visibile su tablet e mobile -->
                 <a class="nav-link" href="#">Link 4</a>
             </div>
         </div>
