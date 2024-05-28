@@ -2,5 +2,17 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color: aqua;
+   
 }
+
+/* HEADER DAHSBOARD */
+/* regole Logo dashboard */
+.navbar-custom {
+    padding: 10px 20px;
+    /* debug */
+   border: solid black 4px;
+   
+  }
+  .navbar-brand img {
+    height: 30px;
+  }
