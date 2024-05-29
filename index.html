@@ -117,23 +117,90 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                                 <p class="text-left fs-1 "><span class="badge bg-primary">125</span></p>
                             </div>
                             <div class="col text-end">
+                                <!-- inizio dropdown link bootstrap js -->
                                 <div class="dropdown">
-                                    <a class="dropdown-toggle text-light  d-inline-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Nuovo studente <i class="far fa-square-plus px-2 ms-1 fs-1"></i>
+                                    <a class="dropdown-toggle text-light d-inline-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span>Nuovo studente</span><i class="far fa-square-plus px-2 ms-1 fs-1"></i>
                                     </a>
                     
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
+                                    <div class="dropdown-menu p-4" aria-labelledby="dropdownMenuLink">
+                                        <h5 class="mb-3">Inserisci un nuovo studente</h5>
+                                        <form>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <label for="inputNome" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="inputNome" placeholder="Inserisci  nome">
+                                                </div>
+                                                <div class="col">
+                                                    <label for="inputCognome" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="inputCognome" placeholder="Inserisci cognome">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <label for="inputNome" class="form-label">Email</label>
+                                                    <input type="text" class="form-control" id="inputNome" placeholder="Inserisci Email">
+                                                </div>
+                                                <div class="col">
+                                                    <label for="inputNome" class="form-label">Password</label>
+                                                    <input type="text" class="form-control" id="inputNome" placeholder="Inserisci la password">
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <label for="inputNome" class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="inputNome" placeholder="Inserisci indirizzo">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <label for="inputNome" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="inputNome" placeholder="Inserisci città">
+                                                </div>
+                                            
+                                                <div class="col">
+                                                    <label for="inputStato" class="form-label">Stato</label>
+                                                    <select class="form-select" id="inputStato">
+                                                        <option selected>Seleziona lo stato</option>
+                                                        <option>Italia</option>
+                                                        <option>Germania</option>
+                                                        <option>Stati Uniti</option>
+                                                        <option>Regno Unito</option>
+                                                        <option>Cina</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col">
+                                                    <label for="inputNome" class="form-label">Cap</label>
+                                                    <input type="text" class="form-control" id="inputNome" placeholder="Inserisci  Cap">
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="inputFile" class="form-label">Scegli file</label>
+                                                <input class="form-control" type="file" id="inputFile">
+                                            </div>
+                    
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning ms-2 ">Svuota</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
+            </div>
         </div>
-    
     </main>
 </body>
 </html>
