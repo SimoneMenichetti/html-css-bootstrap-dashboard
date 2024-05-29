@@ -6,14 +6,16 @@
     
 }
 
-
+.ms-1 {
+  margin-left: 5px !important;
+}
 
 /* HEADER DAHSBOARD */
 /* regole Logo dashboard */
 .navbar-custom {
     padding: 10px ;
     /* debug */
-   border: solid black 4px;
+  
    
   }
   .navbar-brand img {
@@ -28,13 +30,39 @@
 
 /* MAIN */
 
-/* sidebar */
+/* SIDEBAR */
 .sidebar {
   height: calc(100vh - 56px);
+  max-width: ;
   background-color: black;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.sidebar .links {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .bottom-link {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .sidebar {
+      width: 60px;
+  }
+  .sidebar .links a, .sidebar .bottom-link a {
+      text-align: center;
+      font-size: 12px;
+  }
+
+ 
+}
+
+ /* CONTENUTO CENTRALE */
 .main-content {
   height: calc(100vh -56px);
   background-color: #0e7cea;
+  overflow-y: auto;
+  flex-grow: 1;
 }
