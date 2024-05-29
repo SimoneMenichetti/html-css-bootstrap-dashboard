@@ -83,3 +83,15 @@
   overflow-y: auto;
   flex-grow: 1;
 }
+
+/* BREADCRUMB */
+
+.breadcrumb .breadcrumb-item a{
+  text-decoration: none;
+}
+/* hover icona breadcrumb */
+.fa-regular.fa-square-plus:hover {
+  color: rgba(255, 255, 255, 0.5); 
+}
+
+
