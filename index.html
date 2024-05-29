@@ -22,7 +22,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
-      <header class="container-fluid navbar-custom fixed-top">
+      <header class="container-fluid navbar-custom  ">
         <!-- contenitore header -->
         <div class="row align-items-center justify-content-between">
             <!-- Logo -->
@@ -77,47 +77,21 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
     </header>
 
-    <main class="container-fluid mt-5 pt-4 d-flex">
+    <main >
+        
+        <div class="container-fluid h-100 ">
+            <div class="row h-100">
+                <div class="col-3 sidebar">
+                    <!-- Contenuto della Sidebar -->
+                </div>
 
-        <!-- Inizio sidebar -->
-        <div class="row flex-nowrap w-100">
-            <div class="col-12 col-md-3 col-lg-2 sidebar-custom d-flex flex-column align-items-start p-3">
-                <nav class="nav flex-column w-100">
-                    <a class="nav-link active" href="#"><i class="fa-solid fa-house"></i><span class="ms-2">Home</span></a>
-                    <a class="nav-link" href="#"><i class="fa-solid fa-chart-simple"></i><span class="ms-2">Stats</span></a>
-                    <a class="nav-link" href="#"><i class="fa-solid fa-signal"></i><span class="ms-2">Signals</span></a>
-                </nav>
-                <div class="mt-auto w-100">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i><span class="ms-2">Admin</span></a>
+
+                <div class="col-9 main-content">
+                    <!-- Contenuto Principale div destra-->
                 </div>
             </div>
-
-            <!-- inizio content destro -->
-        
-            <div class="col-12 col-md-9 col-lg-10 content-custom p-3 ">
-                <div class="d-flex justify-content-between align-items-center ">
-                    <div class="d-flex align-items-center">
-                        <h1 class="me-3">Boolean</h1>
-                        <!-- Breadcrumb boostrap link -->
-                        <nav aria-label="breadcrumb ">
-                            <ol class="breadcrumb mb-0 ">
-                                <li class="breadcrumb-item"><a href="#">Link 1</a></li>
-                                <li class="breadcrumb-item"><a href="#">Link 2</a></li>
-                                <li class="breadcrumb-item"><a href="#">Link 3</a></li>
-                                <li class="breadcrumb-item"><a href="#">Link 4</a></li>
-                                <li class="breadcrumb-item"><a href="#">Link 5</a></li>
-                            </ol>
-                        </nav>
-                    </div>
-                    <div class="text-center">
-                        <p class="mb-0">Studenti online negli ultimi 30 minuti</p>
-                        <h2>125</h2>
-                    </div>
-                    <div>
-                        <p class="mb-0">Nuovo Studente</p>
-                    </div>
-                </div>
-            <div>
+        </div>
+    
     </main>
 </body>
 </html>

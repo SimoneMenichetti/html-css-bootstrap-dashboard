@@ -6,6 +6,8 @@
     
 }
 
+
+
 /* HEADER DAHSBOARD */
 /* regole Logo dashboard */
 .navbar-custom {
@@ -27,52 +29,12 @@
 /* MAIN */
 
 /* sidebar */
-.sidebar-custom {
-  position: sticky;
-  top: 56px; 
-  height: calc(100vh - 56px); 
-  overflow-y: auto;
-  background-color: #343a40; 
-  color: white;
-}
-
-
-.content-custom {
+.sidebar {
   height: calc(100vh - 56px);
-  overflow-y: auto;
-}
-.nav-link {
-  color: white;
-}
-.nav-link:hover {
-  background-color:   rgba(255, 255, 255, 0.5);
-  color: #fff;
-}
+  background-color: black;
 
-/* media Q SEZIONE SIDEBAR CONTENT */
-@media (max-width: 768px) {
-  .sidebar-custom {
-      width: 60px; /* Sidebar width on mobile */
-  }
-  .content-custom {
-      margin-left: 60px; /* Offset content to avoid overlap */
-  }
-  /* icone d-none in tablet */
-  .nav-link i {
-      display: inline-block; 
-      margin-right: 0;
-  }
-  .nav-link span {
-      display: none; /
-  }
 }
-
-@media (max-width: 360px) {
-  /* icone d-none in mobile */
-  .nav-link i {
-    display: inline-block; 
-    margin-right: 0;
-}
-
-
+.main-content {
+  height: calc(100vh -56px);
+  background-color: #0e7cea;
 }
